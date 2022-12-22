@@ -7,7 +7,6 @@ function App() {
     const res=await fetch("https://jsonplaceholder.typicode.com/posts");
     setData(await res.json())
   }
-  console.log(data)
   return (
     <div className="App" data-testid="app">
       <button

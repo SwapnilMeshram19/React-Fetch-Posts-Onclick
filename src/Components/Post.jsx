@@ -1,7 +1,6 @@
 import React from "react";
 import "./post.css";
 const Post = ({ postData }) => {
-  console.log(postData);
   return (
     <div className="post">
       <h1>{postData.title}</h1>
